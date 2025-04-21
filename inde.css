@@ -7,15 +7,15 @@
 
 /* Estilo general del body */
 body {
-    background-image: url('fondo..jpg');
+    background-image: url('../img/fondo..jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 100pc;
     background-color: #ffffff;
 }
 .hero {
-    background-image: url('fondo..jpg');/* Puedes cambiarla por tu imagen */
+    background-image: url('../img/fondo..jpg');/* Puedes cambiarla por tu imagen */
     background-size: cover;
     background-position: center;
 }
@@ -40,7 +40,7 @@ ul li {
 }
 
 ul li a {
-    color: cyan;
+    color: rgb(22, 160, 63);
     text-decoration: none;
     text-align: center;
     font-size: 1.1rem;
@@ -79,7 +79,7 @@ nav ul li:hover {
     }
 
     .boton_menu {
-        background-image: url(boton.png);
+        background-image: url('../img/boton.png');
         background-color: #1e1e1e;
         background-repeat: no-repeat;
         background-size: 30px 30px;
@@ -107,7 +107,7 @@ nav ul li:hover {
 
     /* Clase para cambiar el ícono de menú a una "X" */
     .colocar_x {
-        background-image: url(flecha.png);
+        background-image: url('../img/flecha.png');
         background-color: #1e1e1e;
         background-repeat: no-repeat;
         background-size: 30px 30px;
