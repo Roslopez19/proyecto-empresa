@@ -1,0 +1,176 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+    background-image: url(fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-color: #ffffff;
+}
+.hero {
+    background-image: url('fondo1.jpg'); /* Puedes cambiarla por tu imagen */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilo para escritorio */
+.barras {
+    display: none;
+}
+
+.desplegable {
+    background: #1e1e1e;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+ul li {
+    padding: 10px;
+    list-style: none;
+}
+
+ul li a {
+    color: cyan;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+nav ul li:hover {
+    background: #ff5722;
+}
+
+/* Estilo para tablet */
+@media (max-width: 850px) {
+    .barras {
+        background-color: #1e1e1e;
+        display: block;
+    }
+
+    .desplegable {
+        background: none;
+        transform: translate(-100%);
+        transition: 0.5s;
+        font-size: 1.5rem;
+        width: 50%;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    a {
+        font-size: 1.5rem;
+        padding: 20px;
+        display: block;
+        text-align: left;
+    }
+
+    .boton_menu {
+        background-image: url('../img/boton.png');
+        background-color: #1e1e1e;
+        background-repeat: no-repeat;
+        background-size: 30px 30px;
+        background-position: center;
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    button {
+        border: none;
+        margin: 10px 20px;
+        background: none;
+    }
+
+    /* Clase para mostrar el menú desplegable con toggle */
+    .abrir_menu {
+        background: rgba(30, 30, 30, 0.6);
+        backdrop-filter: blur(2px);
+        transform: translate(0%);
+        width: 50%;
+        transition: 0.5s;
+    }
+
+    /* Clase para cambiar el ícono de menú a una "X" */
+    .colocar_x {
+        background-image: url('/img/boton.png');
+        background-color: #1e1e1e;
+        background-repeat: no-repeat;
+        background-size: 30px 30px;
+        background-position: center;
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+}
+
+/* Estilo para celular */
+@media (max-width: 500px) {
+    .desplegable {
+        width: 100%;
+        height: 100vh;
+        font-size: 1.6rem;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .productos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Estilo para los productos con recuadros circulares y movimiento */
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.producto {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* Animación al pasar el cursor */
+.producto:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.producto:hover img {
+    transform: scale(1.1);
+}
+
+
+
