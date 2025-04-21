@@ -7,7 +7,7 @@
 
 /* Estilo general del body */
 body {
-    background-image: url('../img/fondo..jpg');
+    background-image: url(fondo..jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -15,7 +15,7 @@ body {
     background-color: #ffffff;
 }
 .hero {
-    background-image: url('../img/fondo..jpg');/* Puedes cambiarla por tu imagen */
+    background-image: url(fondo..jpg);/* Puedes cambiarla por tu imagen */
     background-size: cover;
     background-position: center;
 }
