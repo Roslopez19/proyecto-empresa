@@ -40,7 +40,7 @@ ul li {
 }
 
 ul li a {
-    color: cyan;
+    color: rgb(255, 0, 119);
     text-decoration: none;
     text-align: center;
     font-size: 1.1rem;
