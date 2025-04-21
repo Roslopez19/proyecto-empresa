@@ -79,7 +79,7 @@ nav ul li:hover {
     }
 
     .boton_menu {
-        background-image: url('../img/boton.png');
+        background-image: url(boton.png);
         background-color: #1e1e1e;
         background-repeat: no-repeat;
         background-size: 30px 30px;
@@ -106,7 +106,7 @@ nav ul li:hover {
 
     /* Clase para cambiar el ícono de menú a una "X" */
     .colocar_x {
-        background-image: url('/img/boton.png');
+        background-image: url(boton.png);
         background-color: #1e1e1e;
         background-repeat: no-repeat;
         background-size: 30px 30px;
