@@ -15,7 +15,7 @@ body {
     background-color: #ffffff;
 }
 .hero {
-    background-image: url(); /* Puedes cambiarla por tu imagen */
+    background-image: url();
     background-size: cover;
     background-position: center;
 }
