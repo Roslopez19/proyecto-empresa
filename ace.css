@@ -1,11 +1,11 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo general del body */
+
 body {
     background-image: url(foa.jpg);
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ body {
     background-color: #ffffff;
 }
 .hero {
-    background-image: url(); /* Puedes cambiarla por tu imagen */
+    background-image: url();
     background-size: cover;
     background-position: center;
 }
